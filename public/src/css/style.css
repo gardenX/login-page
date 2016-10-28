@@ -1,0 +1,90 @@
+body{
+    background: #151a22 fixed center;
+}
+.gambar {
+    width: 112px;
+    height: 111px;
+    margin-top: -101px;
+    position: fixed;
+}
+.col-md-8.sisi-kiri {
+    height: 100%;
+    color: #fff;
+}
+.cyber{
+    color: #6fbfa0;
+}
+.click{
+    color: #636363;
+}
+.sisi-kanan {
+    background-color: #00a876;
+    height: 100%;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    width: 33.33333333%;
+}
+.lead{
+    color: #fff !important;
+}
+.paragraf{
+    text-align: justify;
+}
+.welcome-message-h1 {
+    font-size: 49px;
+	color: #fff;
+    margin-top: 34px;
+}
+.margin-from-top {
+	margin-top: 15%;
+}
+.margin-10px{
+	margin-top: 10px
+}
+.welcome-message p{
+	color: #4c5156;
+}
+.btn-accent {
+	background-color: #00a876;
+	color: #fff;
+	border-radius: 0 !important;
+}
+.btn-accent:hover {
+    background-color: #fff;
+    color: #00a876;
+    border-radius: 0 !important;
+}
+.kanan {
+    margin-top: 50%;
+    padding-left: 28px;
+    font-size: 24px;
+}
+.btn-accent-2 {
+    background-color: #fff;
+    color: #00a876;
+    border-radius: 0 !important;
+}
+.btn-accent-2:hover {
+    background-color: #00a876;
+    color: #fff;
+    border-radius: 0 !important;
+}
+.form-group {
+    margin-right: 26px;
+}
+
+/* order.html */
+.form-creat{
+    background-color: #fff;
+}
+.order{
+    margin-top: 100px;
+}
+.col-md-4.col-md-offset-1.form-order{
+    width: 485px;
+}
+.sub-judul:hover{
+    color: blue;
+    font-style: italic;
+}
