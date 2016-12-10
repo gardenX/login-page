@@ -3,40 +3,27 @@
 <head>
 
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>CyberClick.id</title>
+  <link rel="shortcut icon" href="src/img/icon/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/bootwatch/dist/paper/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/style.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script> 
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script> 
 </head>
 <body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><span class="cyber">Cyber</span><span class="click">click</span></a>
+<div id="wrapper" class="wrapper">
+    <div class="header">
+        <img src="src/img/icon/cc.png" alt="Cyber" >
     </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+</div>
 <div class="form-creat">
 	<div class="container">
 		<div class="row order">
 			<div class="col-md-6">
 				<blockquote>			
-					<h3>Syarat dan Ketentuan Pembuatan</h3S>
+					<h3 class="judul">Syarat dan Ketentuan Pembuatan</h3S>
 				</blockquote>
 				<ol>
 					<li>Isilah nama Instansi atau Perusahaan Anda pada Form disamping dengan lengkap</li>
@@ -227,7 +214,7 @@
 				</ol>
 			</div>
 		<div class="col-md-4 col-md-offset-1 form-order">
-			<div class="panel panel-primary">
+			<div class="panel panel-success">
   				<div class="panel-heading">
    					<h3 class="panel-title">Isi Form Dibawah Ini</h3>
   				</div>
@@ -235,15 +222,13 @@
     					<form class="form-horizontal">
   							<fieldset>
     							<div class="form-group">
-      								<label for="inputinstansi" class="col-lg-2 control-label">Nama</label>
-      									<div class="col-lg-10">
-        									<input class="form-control isi" id="inputintansi" type="text">
+      									<div class="col-lg-12">
+        									<input class="form-control isi" id="inputintansi" type="text" placeholder="Nama">
       									</div>
     							</div>
     							<div class="form-group">
-      								<label for="inputEmail" class="col-lg-2 control-label">Email</label>
-      									<div class="col-lg-10">
-        									<input class="form-control isi" id="inputEmail" type="password">
+      									<div class="col-lg-12">
+        									<input class="form-control isi" id="inputEmail" type="password" placeholder="Email valid">
         										<div class="checkbox">
           											<label>
             											<input type="checkbox"> Benar
@@ -252,9 +237,8 @@
       									</div>
     							</div>
     							<div class="form-group">
-      								<label for="textArea" class="col-lg-2 control-label">Alamat</label>
-      									<div class="col-lg-10">
-        									<textarea class="form-control isi" rows="3" id="textArea"></textarea>
+      									<div class="col-lg-12">
+        									<textarea class="form-control isi" rows="3" id="textArea" placeholder="Alamat"></textarea>
         										<span class="help-block">Isi Alamat Lengkap</span>
       									</div>
     							</div>
@@ -305,8 +289,7 @@
           								</div>
           						</div>
     							<div class="form-group">
-      								<label for="select" class="col-lg-2 control-label">Spesifikasi</label>
-      									<div class="col-lg-10">
+      									<div class="col-lg-12">
         									<select class="form-control isi" id="select">
           									<option>1. Hanya Website</option>
           									<option>2. Website + SEO</option>
@@ -316,10 +299,10 @@
         									<br>
         								</div>
         						</div>
-        						<div class="form-group">
-        							<div class="col-lg-10 col-lg-offset-2">
-        								<button type="reset" class="btn btn-default">Cancel</button>
-        								<button type="submit" class="btn btn-primary">Send</button>
+                    <div class="g-recaptcha" data-sitekey="6LcFaw4UAAAAAHyKHpXyYDjZh6smZKGKiBA6IaJA"></div>
+        						<div class="form-group send">
+        							<div class="col-lg-8 col-lg-offset-3">
+        								<button type="submit pemintaan" class="btn btn-success">Send</button>
       								</div>
     							</div>
   							</fieldset>
@@ -330,5 +313,8 @@
 		</div>
 	</div>
 </div>
+<footer class="down">
+    <p>Copyright &copy; CyberClick</p>
+</footer>
 </body>
 </html>

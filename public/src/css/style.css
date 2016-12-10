@@ -1,6 +1,17 @@
 body{
     background: #151a22 fixed center;
 }
+.header {
+    height: 71px;
+    background: #f1f1f1;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.header img {
+    height: 80px;
+    width: 85px;
+    margin: -5px 61px;
+}
 .gambar {
     width: 112px;
     height: 111px;
@@ -11,11 +22,9 @@ body{
     height: 100%;
     color: #fff;
 }
-.cyber{
-    color: #6fbfa0;
+.judul {
+    font-size: 33px;
 }
-.click{
-    color: #636363;
 }
 .sisi-kanan {
     background-color: #00a876;
@@ -70,6 +79,11 @@ body{
     color: #fff;
     border-radius: 0 !important;
 }
+.panel-success > .panel-heading{
+    color: #ffffff;
+background-color: #6FBFA0;
+border-color: #d6e9c6;
+}
 .form-group {
     margin-right: 26px;
 }
@@ -87,4 +101,23 @@ body{
 .sub-judul:hover{
     color: blue;
     font-style: italic;
+}
+.submit{
+    float: right;
+}
+.btn{
+    background-color: #6ec5a2;
+}
+.g-recaptcha{
+    margin-left: 30px;
+}
+.send{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.down {
+    text-align: center;
+    margin-top: 10px;
+    color: #f1f1f1;
 }
